@@ -1,9 +1,11 @@
 
-package src.ejercicio4_30;
-import javax.swing.*;
+package ejercicio4_30;
+
+import javax.swing.JOptionPane;
+
 public class Ejercicio4_30 {
 
-    public static void main(String[] args) {     
+    public static void main(String[] args) {  
         boolean salir=false;     
         boolean continuar=false;
         while (salir==false){ 
@@ -18,7 +20,7 @@ public class Ejercicio4_30 {
                     terminar=true;
                     continuar=true;
             }
-                    if (adivina==0){
+                if (adivina==0){
                     salir=true;               
                 }            
             while (terminar==false && intentos!=1){                
@@ -54,6 +56,3 @@ public class Ejercicio4_30 {
         }
    }
 }
-
-
-    
